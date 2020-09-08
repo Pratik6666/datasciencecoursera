@@ -1,3 +1,2 @@
-x=c(0:10)
-as.logical(x)
+x=list(1,"a",TRUE,0+2i)
 print(x)
