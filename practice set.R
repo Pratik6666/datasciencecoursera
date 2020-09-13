@@ -1,9 +1,9 @@
-x=1:5
-print(x)
-y=1:10 
-print(y)
-dim(x)=c(2,2)
-print(x)
-cbind(x,y)
-cbind(y,x)
-rbind(x,y)
+x=factor(c("yes","no","yes","yes","no","rocket","science"),levels = c("no","yes","rocket","science"))
+x
+table(x)
+unclass(x)
+y=c(1,2,3,4,5)
+y=factor(c(1,2,3,4,5,2,3,4,2,4,2,2,3))
+y
+table(y)
+unclass(y)
