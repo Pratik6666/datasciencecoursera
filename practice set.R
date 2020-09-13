@@ -1,2 +1,9 @@
-x=list(1,"a",TRUE,0+2i)
+x=1:5
 print(x)
+y=1:10 
+print(y)
+dim(x)=c(2,2)
+print(x)
+cbind(x,y)
+cbind(y,x)
+rbind(x,y)
