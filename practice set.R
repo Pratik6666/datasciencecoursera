@@ -1,5 +1,6 @@
-x=c(1,2,NA,3,4)
-is.na(x)
-y=c(1,2,NA,3,4,5,NaN,NA,0,NaN)
-table(is.nan(y))
-table(is.na(y))
+x=data.frame(foo=1:4,bar=c(T,T,F,F))
+x
+y=data.frame(test1=c("a","b","c","d"),test2=c("a1","b1","c1","d1"))
+y
+nrow(x)
+ncol(y)
